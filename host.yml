@@ -1,0 +1,7 @@
+all:
+ hosts:
+  remote:
+   ansible_connection: ssh
+   ansible_user: crosscode
+   ansible_host: 00.00.00.00
+   ansible_port: 22
